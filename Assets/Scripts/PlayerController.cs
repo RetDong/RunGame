@@ -14,7 +14,9 @@ public class PlayerController : MonoBehaviour {
    private AudioSource playerAudio; // 사용할 오디오 소스 컴포넌트
 
    private void Start() {
-       // 초기화
+        // 초기화
+        playerRigidbody = GetComponnent<Rigidbody2D>();
+        animator anim
    }
 
    private void Update() {
